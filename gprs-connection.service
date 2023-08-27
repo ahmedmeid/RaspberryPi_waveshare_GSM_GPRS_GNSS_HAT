@@ -1,0 +1,9 @@
+[Unit]
+Description=Run pppd to connect to GPRS
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Dev/gprs_conection.sh
+
+[Install]
+WantedBy=multi-user.target
